@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/*font-family: 'Abril Fatface', cursive;  
+header and qoutes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&display=swap');
+/*font-family: 'Josefin Sans', sans-serif;
+paragrpahs*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/*font-family: 'Merriweather', serif;
+subtitles*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  max-width:700px;
+  margin:auto;
+    
+}
+header {
+  background:#222;;
+  display:flex;
+  justify-content:center;
+  position:fixed;
+  z-index:999;
+ 
+}
+img {
+  display: flex;
+  width: 110%;
+  height: 100%;
+}
+header a{
+  text-align:center;
+  padding:10px 10px;
+  width:170px;
+  height:30px;
+  line-height:30px;
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-size:18px;
+  transition:320ms;
+   letter-spacing:-.8px;
+  
+}
+header a:hover{
+ transform:scale(1.05);
+ letter-spacing:.8px;
+  
+}
+
+
+h1,blockquote {
+  font-family: 'Abril Fatface', cursive;  
+  color:#222;
+  font-weight:normal;
+}
+h1{
+  font-size:60px;
+}
+
+h1 span {
+  margin-bottom:-15px;
+  font-size:30px;
+  display: block;
+}
+
+h2{
+  font-weight:500;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#222;
+}
+
+h2.blokk-title{
+  font-weight:500;
+  text-transform:uppercase;
+  margin:60px 0px;
+}
+
+h2 em{
+  font-family: 'Merriweather', serif;
+  display:block;
+  font-weight:normal;
+  font-size:15px;
+}
+
+ p, li {
+  font-weight:300;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#222;
+  letter-spacing:-0.5px;
+  
+}
+
+ul {
+  display: block;
+  margin-bottom:60px;
+}
+
+li{
+  list-style-type:square;
+  margin-bottom:10px;
+}
+
+blockquote {
+
+  position: relative;
+  background:#222;
+  padding:50px 40px;
+  color:white;
+  font-size:50px;
+}
+
+blockquote::after {
+  content:'“';
+  position: absolute;
+  top:-35px;
+  left:2px;
+  font-size:130px;
+}
+
+.block1{
+  background: url('http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png');
+ background-size: cover;
+ background-position: top center;
+  background-repeat:no-repeat;
+  width: 62%;
+  height:380px;
+  display:flex;
+  align-items:flex-end;
+  left:0;
+  top:0;
+  margin-right: 40px;
+  position:relative;
+}
+.block1 h1 {
+  position: absolute;
+  line-height:60px;
+  margin-left: 100px;
+  bottom: 0;
+}
+
+.blokk-personal {
+  border-top:3px solid;
+}
+
+
+p.mb-60-px {
+   margin-bottom:60px;
+}
+selection {
+  display:flex;
+  align-items:flex-start;
+}
+selection div, .blokk2 {
+  width:60%;
+
+}
+selection blockquote, block1 {
+  width:44%;
+  margin: 40px 18px 40px 0;
+}
+selection#bio {
+  padding-top:50px;
+}
