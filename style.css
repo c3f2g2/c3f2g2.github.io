@@ -169,3 +169,47 @@ selection blockquote, block1 {
 selection#bio {
   padding-top:50px;
 }
+#a69, #a70 {
+  color: blue;
+  font-size: 20px;
+  
+}
+#a71, #a72{
+  border: solid green 1px;
+}
+#a69 {
+  background-color: yellow;
+}
+#a70, #a71, #a72 {
+  font-weight: bold; 
+}
+.boxer {
+  border: solid black 3px;
+  padding: 15px;
+  width: 100px;
+}
+.boxer:hover {
+  background-color: red;
+}
+.boxes10 {
+  width: 620px;
+  border: solid blue 3px;
+  background-color: red;
+}
+.box {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+.boxes20 {
+  
+  margin-top: 20px;
+  width: 620px;
+  border: solid blue 3px;
+  background-color: white;
+}
+.box2 {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
